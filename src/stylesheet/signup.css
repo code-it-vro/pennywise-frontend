@@ -1,0 +1,111 @@
+/* signup.css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fafaf4; /* White background for the whole page */
+  color: #333; /* Dark text color */
+}
+
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.signup-form {
+  background-color: #faf9f9; /* White background for the form */
+  padding: 30px;
+  border: 6px solid #000; /* Thick black border around the form */
+  border-radius: 25px; /* Rounded corners */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1); /* 3D shadow effect */
+  width: 100%;
+  max-width: 400px;
+}
+
+.signup-form h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  color: #000; /* Black heading text */
+  font-weight: bold; /* Bold heading */
+  font-size: 28px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold; /* Bold label */
+  color: #000; /* Black label text */
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #000; /* Black border for input fields */
+  border-radius: 8px; /* Rounded input fields */
+  font-size: 16px;
+  color: #333; /* Dark text inside input fields */
+  background-color: #fff; /* White background for input fields */
+  text-align: center; /* Center the placeholder text */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* 3D shadow effect for inputs */
+}
+
+.form-group input:focus {
+  border-color: #000; /* Keep black border on focus */
+  outline: none;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow on focus */
+}
+
+.btn {
+  width: 100%;
+  padding: 10px 20px; /* Compact horizontal size */
+  background-color: #000; /* Black background for button */
+  color: white; /* White text color */
+  border: none;
+  border-radius: 8px; /* Rounded button */
+  font-size: 16px;
+  font-weight: bold; /* Bold text on the button */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #333; /* Darker shade of black on hover */
+}
+
+span {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #000; /* Black text for span */
+}
+
+span a {
+  color: #808080; /* Grey color for the login link */
+  text-decoration: none;
+  font-weight: bold; /* Bold text for the login link */
+}
+
+span a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .signup-form {
+    padding: 20px;
+  }
+}
