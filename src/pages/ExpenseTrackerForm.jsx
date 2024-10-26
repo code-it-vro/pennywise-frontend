@@ -23,7 +23,6 @@ function ExpenseTrackerForm({ addExpenses }) {
       return;
     }
     addExpenses(expenseInfo);
-    console.log(expenseInfo);
 
     // Reset the form fields after submission
     setExpenseInfo({

@@ -31,9 +31,7 @@ function Home() {
     setIncomeAmount(income);
     setExpenseAmount(expense);
 
-    console.log(amounts);
-    console.log(income);
-    console.log(expense);
+    
   }, [expenses]);
 
   const handleLogout = () => {
