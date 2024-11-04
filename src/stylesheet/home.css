@@ -23,6 +23,8 @@ body {
   max-height: calc(90vh - 3rem);
   box-sizing: border-box;
   padding: 0.5rem;
+  overflow: scroll;
+  overflow-x: hidden;
   margin: 0 2rem; /* Add margin on left and right to prevent touching */
 }
 
