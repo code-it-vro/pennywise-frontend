@@ -327,6 +327,10 @@ body {
   body {
     overflow: auto;
   }
+  .details-heading{
+    font-size: 26px;
+    margin-bottom: 1.5rem;
+  }
 
   .header-container {
     position: sticky;
@@ -370,6 +374,9 @@ body {
   .expense-list-container {
     max-height: 400px;
     overflow-y: auto;
+  }
+  .expenses-heading{
+    font-size: 26px;
   }
 
   .expense-details-container,

@@ -10,7 +10,7 @@ function ExpenseDetails({ income, expense }) {
 
   return (
     <div className="expense-details-container">
-      <h3 className="details-heading">Expense Overview</h3>
+      <h3 className="details-heading">Financial Summary</h3>
       <div className="details-info">
         <p>
           Total Balance:{" "}

@@ -34,7 +34,7 @@ function ExpenseTrackerForm({ addExpenses }) {
   return (
     <div className="expense-form-container">
       <form className="expense-form" onSubmit={handleExpense}>
-        <h3>Track your Expenses</h3>
+        <h3>Transaction Amount</h3>
         <div className="form-group">
           <label htmlFor="text">Description</label>
           <input
@@ -51,7 +51,7 @@ function ExpenseTrackerForm({ addExpenses }) {
           <input
             type="number"
             name="amount"
-            placeholder="Enter value in +ve if income and -ve if expense"
+            placeholder="Enter value(+ for income,- for expense)"
             value={expenseInfo.amount}
             onChange={handleChange}
           />
