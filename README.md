@@ -1,8 +1,18 @@
-# React + Vite
+# PennyWise - Expense Tracking App  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PennyWise is a modern, user-friendly expense tracking app that helps you manage your finances efficiently. Track your income, savings, and expenses in one place, and get insights into where your money is going.  
 
-Currently, two official plugins are available:
+## Features  
+- **Add Expenses**: Record your daily expenses with descriptions and amounts.  
+- **Track Income and Savings**: Monitor your earnings and savings to stay financially organized.  
+- **Insights**: Visualize where you're spending most of your money and manage your budget effectively.  
+- **Responsive Design**: A seamless experience across devices, from desktops to smartphones.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack  
+- **Frontend**: React.js  
+- **Backend**: Node.js + Express
+- **Styling**: Tailwind CSS for a modern and clean UI
+- **Database**: MongoDb
+
+
+
